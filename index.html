@@ -4,90 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OptiBotX</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="app">
-  <div class="card">
-    <div class="top-bar">
-      <h1>AI OptiBotX</h1>
-      <button id="langSwitch">RU</button>
-    </div>
-
-    <label for="pairSelect">Выбери валютную пару</label>
-
-    <select id="pairSelect">
-      <option disabled>— Forex пары —</option>
-      <option>EUR/USD</option>
-      <option>GBP/USD</option>
-      <option>USD/JPY</option>
-      <option>USD/CHF</option>
-      <option>USD/CAD</option>
-      <option>AUD/USD</option>
-      <option>NZD/USD</option>
-      <option>EUR/JPY</option>
-      <option>GBP/JPY</option>
-      <option>AUD/JPY</option>
-      <option>NZD/JPY</option>
-      <option>CAD/JPY</option>
-      <option>CHF/JPY</option>
-      <option>EUR/CHF</option>
-      <option>GBP/CHF</option>
-      <option>AUD/CHF</option>
-      <option>NZD/CHF</option>
-      <option>EUR/AUD</option>
-      <option>GBP/AUD</option>
-      <option>AUD/CAD</option>
-      <option>EUR/CAD</option>
-      <option>GBP/CAD</option>
-      <option>USD/SGD</option>
-      <option>USD/HKD</option>
-      <option>USD/ZAR</option>
-
-      <option disabled>— OTC пары —</option>
-      <option>EUR/USD OTC</option>
-      <option>GBP/USD OTC</option>
-      <option>USD/JPY OTC</option>
-      <option>AUD/USD OTC</option>
-      <option>USD/CAD OTC</option>
-      <option>USD/CHF OTC</option>
-      <option>NZD/USD OTC</option>
-      <option>GBP/JPY OTC</option>
-      <option>EUR/JPY OTC</option>
-      <option>EUR/GBP OTC</option>
-      <option>AUD/JPY OTC</option>
-      <option>CHF/JPY OTC</option>
-      <option>EUR/AUD OTC</option>
-      <option>GBP/AUD OTC</option>
-      <option>NZD/JPY OTC</option>
-      <option>EUR/CHF OTC</option>
-      <option>GBP/CHF OTC</option>
-      <option>CAD/JPY OTC</option>
-    </select>
-
-    <div class="upload">
-      <canvas id="simpleChart" width="700" height="320"></canvas>
-    </div>
-
-    <div class="time-grid" id="timeGrid">
-      <div class="time-btn">5s</div>
-      <div class="time-btn">10s</div>
-      <div class="time-btn">15s</div>
-      <div class="time-btn">30s</div>
-      <div class="time-btn active">1m</div>
-      <div class="time-btn">2m</div>
-      <div class="time-btn">5m</div>
-      <div class="time-btn">15m</div>
-    </div>
-
-    <button class="analyze-btn" id="analyzeBtn">Анализировать</button>
-    <div class="status" id="statusBlock">🔵 Ожидание...</div>
-  </div>
-
-  <div id="calculator"></div>
-</div>
-
+<div id="app"></div>
 <script src="app.js"></script>
 </body>
 </html>
